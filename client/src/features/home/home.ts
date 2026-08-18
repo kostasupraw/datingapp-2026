@@ -1,7 +1,7 @@
 import { Component, Input, signal } from '@angular/core';
 import { Register } from "../account/register/register";
 import { required } from '@angular/forms/signals';
-import { User } from '../../Types/user';
+import { User } from '../../types/user';
 
 @Component({
   selector: 'app-home',
